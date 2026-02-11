@@ -1,4 +1,4 @@
-This is a personal build of universalblue fedora silverblue, with niri as a main DE and gnome as fallback (may get rid of it later) 
+This is a personal customization of universalblue's fedora silverblue image, with niri as a main DE and gnome as fallback (may get rid of it later) 
 
 It runs well on the FriendlyElec NanopPC T6 LTS with UEFI (https://github.com/edk2-porting/edk2-rk3588)
 
