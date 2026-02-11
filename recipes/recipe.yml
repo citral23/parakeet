@@ -53,6 +53,7 @@ modules:
         - qemu
         - qt6ct
         - screen
+        - swayidle
         - tailscale
         - telnet
         - vim
