@@ -1,3 +1,11 @@
+This is a personal build of universalblue fedora silverblue, with niri as a main DE and gnome as fallback (may get rid of it later) 
+
+It runs well on the FriendlyElec NanopPC T6 LTS with UEFI (https://github.com/edk2-porting/edk2-rk3588)
+
+Not intended for public use as I'll likely break your workflow to suit mine now and then but you can take inspiration and build your own:
+
+Follow https://blue-build.org/ doc to create the repo, upload your recipe.yaml and switch the action runner to a local arm64 machine you own
+
 # niri-arch64-uefi &nbsp; [![bluebuild build badge](https://github.com/citral23/niri-arch64-uefi/actions/workflows/build.yml/badge.svg)](https://github.com/citral23/niri-arch64-uefi/actions/workflows/build.yml)
 
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
