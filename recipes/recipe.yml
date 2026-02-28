@@ -22,7 +22,6 @@ modules:
         - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
       copr:
         - avengemedia/danklinux
-        - sneexy/zen-browser
     install:
       packages:
         - brightnessctl
@@ -35,6 +34,7 @@ modules:
         - eog
         - fastfetch
         - fira-code-fonts
+        - firefox
         - freerdp
         - gnome-calculator
         - gnome-clocks
@@ -63,12 +63,9 @@ modules:
         - xfce-polkit
         - yazi
         - zed
-        - zen-browser
 
     remove:
       packages:
-        - firefox
-        - firefox-langpacks
         - htop
         - gnome-software
         - gnome-system-monitor
