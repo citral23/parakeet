@@ -92,11 +92,6 @@ modules:
         - libvirtd
         - sshd
 
-  - type: soar
-    additional-repos: true
-    auto-upgrade: true
-    upgrade-interval: '3d'
-
   - type: gnome-extensions
     install:
       - 6670 #Bluetooth Battery Meter
