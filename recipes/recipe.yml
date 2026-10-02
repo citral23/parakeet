@@ -93,10 +93,13 @@ modules:
         - yad
         - yazi
         - zed
-
     remove:
       packages:
         - htop
+    replace:
+      - from-repo: terra
+        packages:
+          - xwayland-satellite
 
   - type: default-flatpaks
     configurations:
