@@ -18,7 +18,6 @@ modules:
 
   - type: dnf
     repos:
-      nonfree: negativo17
       files:
         - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
         - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
@@ -89,6 +88,7 @@ modules:
         - wlsunset
         - xdotool
         - xfce-polkit
+        - xwayland-satellite
         - xwininfo
         - yad
         - yazi
@@ -96,10 +96,6 @@ modules:
     remove:
       packages:
         - htop
-    replace:
-      - from-repo: terra
-        packages:
-          - xwayland-satellite
 
   - type: default-flatpaks
     configurations:
