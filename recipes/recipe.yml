@@ -86,7 +86,6 @@ modules:
         - wayvnc
         - wlsunset
         - xdotool
-        - xfce-polkit
         - xwayland-satellite
         - xwininfo
         - yad
