@@ -54,8 +54,6 @@ modules:
         - gnome-keyring-pam
         - gparted
         - greetd
-        - gvfs-archive
-        - gvfs-gphoto2
         - jetbrainsmono-nerd-fonts
         - kitty
         - lm_sensors
