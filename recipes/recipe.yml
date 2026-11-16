@@ -62,10 +62,11 @@ modules:
         - mpv
         - nautilus
         - nethogs
-        - NetworkManager-openconnect
-        - NetworkManager-openvpn
+        - NetworkManager-openconnect-gnome
+        - NetworkManager-openvpn-gnome
         - NetworkManager-tui
         - niri
+        - nm-connection-editor
         - nmap-ncat
         - noctalia
         - noctalia-greeter
